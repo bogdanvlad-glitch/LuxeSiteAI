@@ -1,0 +1,63 @@
+:root {
+  --bg: #0b0b0b;
+  --gold: #d4af37;
+  --text: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #000, #111);
+}
+
+h1, h2 {
+  color: var(--gold);
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+input, button {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+input {
+  background: #111;
+  color: white;
+  border: 1px solid #333;
+}
+
+button {
+  background: var(--gold);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#preview pre {
+  background: #000;
+  padding: 15px;
+  overflow-x: auto;
+  border-radius: 8px;
+}
